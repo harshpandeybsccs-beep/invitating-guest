@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wedding Invitation</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Music -->
+    <audio id="weddingMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- MUSIC BUTTON -->
+    <button class="music-btn" id="musicBtn">
+        ♫
+    </button>
+
+
+    <!-- ================= ENVELOPE SCREEN ================= -->
+
+    <section class="opening-screen" id="openingScreen">
+
+        <div class="envelope">
+
+            <div class="flap"></div>
+
+            <div class="envelope-pattern"></div>
+
+            <div class="invited-text">
+                YOU ARE<br>
+                <span>INVITED</span>
+            </div>
+
+            <button class="wax-seal" id="openBtn">
+                <span>Tap</span>
+                <small>to</small>
+                <span>open</span>
+            </button>
+
+        </div>
+
+        <p class="tap-text">
+            Tap the seal to open the invitation
+        </p>
+
+    </section>
+
+
+    <!-- ================= MAIN INVITATION ================= -->
+
+    <main class="invitation" id="invitation">
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="small-title">
+                    TOGETHER WITH THEIR FAMILIES
+                </p>
+
+                <h1>
+                    RITESH
+                    <span>&</span>
+                    SHUBHRA
+                </h1>
+
+                <p class="invite-text">
+                    Request the pleasure of your company
+                    as they celebrate their wedding
+                </p>
+
+                <div class="date">
+                    <span>03</span>
+                    <div>
+                        <b>DECEMBER</b>
+                        <small>2026</small>
+                    </div>
+                </div>
+
+                <p class="location">
+                    ✦ SAXENA DREAM'S LAWN ✦
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- COUPLE -->
+
+        <section class="section couple">
+
+            <p class="section-label">
+                TWO HEARTS
+            </p>
+
+            <h2>
+                One Beautiful Journey
+            </h2>
+
+            <div class="couple-names">
+
+                <div>
+                    <h3>RITESH</h3>
+                    <p>Groom</p>
+                </div>
+
+                <div class="heart">
+                    ♥ WEDS ♥
+                </div>
+
+                <div>
+                    <h3>SHUBHRA</h3>
+                    <p>Bride</p>
+                </div>
+
+            </div>
+
+            <p class="message">
+                With hearts full of love and happiness,
+                we invite you to be a part of our special day
+                as we begin a beautiful new chapter together.
+            </p>
+
+        </section>
+
+
+        <!-- EVENT -->
+
+        <section class="section event-section">
+
+            <p class="section-label">
+                JOIN US
+            </p>
+
+            <h2>
+                Wedding Celebration
+            </h2>
+
+            <div class="event-card">
+
+                <div class="event-item">
+                    <div class="event-icon">♥</div>
+
+                    <h3>Wedding Ceremony</h3>
+
+                    <p>
+                        THURSDAY, 03 December 2026
+                    </p>
+
+                    <p>
+                        6:00 PM onwards
+                    </p>
+                </div>
+
+
+                <div class="divider"></div>
+
+
+                <div class="event-item">
+
+    <a
+        href="https://www.google.com/maps/place/Saxena+Dream+Lawns+(MARRIAGE+OPEN+LAWN)/@19.2646066,73.1443988,17z/data=!3m1!4b1!4m6!3m5!1s0x3be797f00966628f:0x27a07cac13772b23!8m2!3d19.2646066!4d73.1469737!16s%2Fg%2F11xw8xvjph!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D"
+        target="_blank"
+        class="location-image">
+
+        <img src="location.png" alt="Wedding Location">
+
+    </a>
+
+    <h3>SAXENA DREAM'S PALACE</h3>
+
+    <p>
+        MG Road, Mumbai
+    </p>
+
+    <a
+        href="https://www.google.com/maps/place/Gajanan+park/@19.2520335,73.0180156,19.5z/data=!4m6!3m5!1s0x3be7bd001e12ee85:0x83d8fe02193d7452!8m2!3d19.2517543!4d73.0186135!16s%2Fg%2F11yx9p18l2!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D"
+        target="_blank"
+        class="map-btn">
+        View Location
+    </a>
+
+</div>
+
+            </div>
+
+        </section>
+
+
+        <!-- COUNTDOWN -->
+
+        <section class="section countdown-section">
+
+            <p class="section-label">
+                THE BIG DAY
+            </p>
+
+            <h2>
+                Counting Down To Forever
+            </h2>
+
+            <div class="countdown">
+
+                <div>
+                    <strong id="days">00</strong>
+                    <span>Days</span>
+                </div>
+
+                <div>
+                    <strong id="hours">00</strong>
+                    <span>Hours</span>
+                </div>
+
+                <div>
+                    <strong id="minutes">00</strong>
+                    <span>Minutes</span>
+                </div>
+
+                <div>
+                    <strong id="seconds">00</strong>
+                    <span>Seconds</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TIMELINE -->
+
+        <section class="section timeline-section">
+
+            <p class="section-label">
+                WEDDING EVENTS
+            </p>
+
+            <h2>
+                A Day To Remember
+            </h2>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <div class="time">
+                        5:00 PM
+                    </div>
+
+                    <div class="timeline-content">
+                        <h3>Guest Arrival</h3>
+                        <p>
+                            Welcome drinks & greetings
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="time">
+                        6:00 PM
+                    </div>
+
+                    <div class="timeline-content">
+                        <h3>Wedding Ceremony</h3>
+                        <p>
+                            The beautiful beginning
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="time">
+                        8:00 PM
+                    </div>
+
+                    <div class="timeline-content">
+                        <h3>Dinner & Celebration</h3>
+                        <p>
+                            Food, music and happiness
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- RSVP -->
+
+        <section class="section rsvp-section">
+
+            <p class="section-label">
+                WE WOULD LOVE TO SEE YOU
+            </p>
+
+            <h2>
+                Will You Join Us?
+            </h2>
+
+            <p>
+                Your presence would make our celebration
+                even more special.
+            </p>
+
+            <button class="rsvp-btn" id="rsvpBtn">
+                RSVP NOW
+            </button>
+
+        </section>
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <h2>
+                #RISUB
+            </h2>
+
+            <p>
+                Forever begins here ♥
+            </p>
+
+            <p class="copyright">
+                With love, 2026
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <!-- RSVP POPUP -->
+
+    <div class="popup" id="popup">
+
+        <div class="popup-box">
+
+            <button class="close" id="closeBtn">
+                ×
+            </button>
+
+            <h2>
+                RSVP
+            </h2>
+
+            <p>
+                We can't wait to celebrate with you!
+            </p>
+
+            <input
+                type="text"
+                id="guestName"
+                placeholder="Your Name"
+            >
+
+            <input
+                type="number"
+                id="guestCount"
+                placeholder="Number of Guests"
+                min="1"
+            >
+
+            <button class="submit-btn" id="submitBtn">
+                Confirm Attendance
+            </button>
+
+            <p id="rsvpMessage"></p>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
